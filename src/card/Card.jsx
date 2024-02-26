@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 
 // this data comes from the server...

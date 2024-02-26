@@ -4,18 +4,13 @@ import Link from "next/link";
 import Header from "@/header/Header";
 import Card from "@/card/Card";
 import Footer from "@/footer/Footer";
+import Foo from "@/components/Foo";
 
 export default function Home() {
   return (
     <main className="">
-
-      {/* Navbar  */}
       <Nab></Nab>
-
-      {/* Header */}
       <Header></Header>
-
-      {/* card */}
       <Card />
 
       {/* Singup part */}
@@ -23,8 +18,8 @@ export default function Home() {
         <h1 className="text-2xl py-6"> Sign up and get exclusive special deals</h1>
       </div>
 
-      {/* footer */}
-      <Footer />
+      {/* <Footer /> */}
+      <Foo />
     </main>
   );
 }
