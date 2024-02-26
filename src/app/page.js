@@ -18,7 +18,8 @@ export default function Home() {
         <h1 className="text-2xl py-6"> Sign up and get exclusive special deals</h1>
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
+      <h1>Is this really happend</h1>
       <Foo />
     </main>
   );
